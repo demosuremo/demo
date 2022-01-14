@@ -5,19 +5,12 @@
 This [GitHub Page](https://pages.github.com/) is hosted at [GitHub.com]({{ site.urlgithub }}).
 File [LISTINGS]({{ site.baseurl }}/000.html) are also available.
 
-I am {{ site.author }}, {{ site.address }}
+I am {{ site.author }} from {{ site.address }}
 
 <br>
-## Table Example
-
-| [HOME]({{ site.baseurl }}/) | [LISTINGS]({{ site.baseurl }}/000.html) | [LINKS]({{ site.baseurl }}/LINKS/) |
-| [TIPS]({{ site.baseurl }}/TIPS/) | [TARBALL]({{ site.baseurl }}/template.tar.bz2) | [ZIP File]({{ site.baseurl }}/template.zip) |
-| [GitHub]({{ site.urlgithub }}) | [ABOUT]({{ site.baseurl }}/ABOUT/) | [WEB]({{ site.urlweb }}) |
-
-<br>
-## TBA
-* TBA 1
-* TBA 2
+## URLs
+* [Presentasi Backup (PDF)](https://demosuremo.github.io/demo/LaTeX/generic.pdf)
+* [LaTeX Presentasi](https://github.com/demosuremo/demo/tree/master/LaTeX/)
 
 <br>
 Qapla!
