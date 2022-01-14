@@ -1,2 +1,44 @@
-# Fri 14 Jan 2022 11:20:23 WIB
-theme: jekyll-theme-hacker
+version:     "0000--14-Jan-2022"
+copyright:   "2022-2022"
+description:
+  This is the Demo Suremo Page.
+disclaimer:
+  I have spoken.
+keywords:    "demosuremo"
+navbarlinks:
+- navbar:    "Home"
+  link:      "/"
+- navbar:    "Links"
+  link:      "/LINKS/"
+- navbar:    "Tips"
+  link:      "/TIPS/"
+- navbar:    "GitHub"
+  link:      "https://github.com/demosuremo/demo/"
+- navbar:    "Listing"
+  link:      "/000.html"
+- navbar:    "About"
+  link:      "/ABOUT/"
+- navbar:    "GitHub Page"
+  link:      "https://demosuremo.github.io/demo/"
+title:       "The Demo Suremo Page"
+lang:        "en-US"
+author:      "Demo Suremo"
+address:     "Ternate, Halmahera."
+sitemap:     "true"
+markdown:    "kramdown"
+defaults:
+- scope:
+    path:    ""
+  values:
+    layout:  "default"
+github:
+- metadata
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+google_analytics: "UA-89852122-15"
+
+urlweb:           "https://demosuremo.github.io/demo/"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/demosuremo/demo/"
+
