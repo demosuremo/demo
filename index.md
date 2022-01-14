@@ -13,7 +13,7 @@ Namaku {{ site.author }} dari {{ site.address }}
 
 <br>
 ## URLs
-* [Presentasi Backup (PDF)](https://demosuremo.github.io/demo/LaTeX/generic.pdf)
+* [Backup dengan RSYNC dan GIT (WIP)](https://demosuremo.github.io/demo/LaTeX/generic.pdf)
 * [LaTeX Presentasi](https://github.com/demosuremo/demo/tree/master/LaTeX/)
 
 <br>
