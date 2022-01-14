@@ -2,10 +2,14 @@
 ---
 
 <br>
-This [GitHub Page](https://pages.github.com/) is hosted at [GitHub.com]({{ site.urlgithub }}).
-File [LISTINGS]({{ site.baseurl }}/000.html) are also available.
+[Laman GitHub (Page)](https://pages.github.com/) ini berada di [GitHub.com]({{ site.urlgithub }}).
+Berkas
+[Jekyll]({{ site.baseurl }}/000.html)
+dan
+[LaTeX](https://github.com/demosuremo/demo/tree/master/LaTeX/)
+juga tersedia!
 
-I am {{ site.author }} from {{ site.address }}
+Namaku {{ site.author }} dari {{ site.address }}
 
 <br>
 ## URLs
@@ -13,5 +17,6 @@ I am {{ site.author }} from {{ site.address }}
 * [LaTeX Presentasi](https://github.com/demosuremo/demo/tree/master/LaTeX/)
 
 <br>
-Qapla!
+## Qapla!
+<br>
 
