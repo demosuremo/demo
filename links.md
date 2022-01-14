@@ -2,20 +2,10 @@
 permalink: /LINKS/
 ---
 
-# LINKS
+# More LINKS (URLs)
 
-1. [One](https://en.wikipedia.org/wiki/1)<br>
-StarBucks ipsum dolor J.CO Do Not!
-McD ipsum dolor Wendy's Burger King.
-KFC urna libero, in purus hana masa, tempor hokben lorem.
-
-2. [Two](https://en.wikipedia.org/wiki/2)<br>
-Sweet roll lollipop tootsie roll cheesecake marshmallow macaroon chocolate bar biscuit candy.
-Donut chocolate cake sugar plum icing dragée pie.
-Chocolate marzipan jelly-o soufflé donut pudding apple pie jelly beans.
-
-3. [Three](https://en.wikipedia.org/wiki/3)<br>
-Liquorice bonbon lemon drops marshmallow.
-Sweet roll gummies gummies jelly tiramisu chocolate fruitcake.
-Jelly chocolate jelly beans marzipan brownie bonbon muffin.
+* [A step-by-step guide to set up a Virtual Debian Guest on VirtualBox](https://osp4diss.vlsm.org/)
+* [A GitHub Page with no Jekyll Theme](https://doit.vlsm.org/001.html)
+  * [A GitHub Page Template](https://template.vlsm.org/)
+* [Installing Jekyll On a VirtualBox](https://doit.vlsm.org/005.html)
 

@@ -15,6 +15,7 @@ Namaku {{ site.author }} dari {{ site.address }}
 ## URLs
 * [Backup dengan RSYNC dan GIT (<span style="color:red; font-weight:bold;">===DRAFT===</span>)](https://demosuremo.github.io/demo/LaTeX/generic.pdf)
 * [LaTeX Presentasi](https://github.com/demosuremo/demo/tree/master/LaTeX/)
+* [More LINKS (URLs)](/LINKS/)
 
 <br>
 ## Qapla!
