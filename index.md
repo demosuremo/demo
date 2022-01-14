@@ -15,22 +15,9 @@ I am {{ site.author }}, {{ site.address }}
 | [GitHub]({{ site.urlgithub }}) | [ABOUT]({{ site.baseurl }}/ABOUT/) | [WEB]({{ site.urlweb }}) |
 
 <br>
-## List
-* List 1
-* List 2
-* List 3
-
-<br>
-## Source Code
-
-```
-#include <stdio.h>
-
-int main(void) {
-    prinf("As.w.w.\n");
-}
-
-```
+## TBA
+* TBA 1
+* TBA 2
 
 <br>
 Qapla!
