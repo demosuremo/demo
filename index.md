@@ -19,9 +19,6 @@ Namaku {{ site.author }} dari {{ site.address }}
 * [Google Account: Backup](001.md)
 
 <br>
-<img src="{{ site.baseurl }}/pictures/JPG-012.jpg" alt="Default" style="width:960">
-
-<br>
 ## Qapla!
 <br>
 

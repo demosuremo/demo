@@ -4,8 +4,8 @@ permalink: /ABOUT/
 
 # About
 
-This is a GitHub Page template on GitHub.
-Fill free to clone/fork/hijack/whatever it!
+This GitHub Demo Page was made for the Cloud Kilat Webinar.
+Please feel free to clone/fork/hijack/whatever it!
 
 <br>
 # More Information
@@ -24,7 +24,10 @@ Fill free to clone/fork/hijack/whatever it!
 {% endfor %}
 </li></ul><br>
 
+<br>
+<img src="{{ site.baseurl }}/pictures/JPG-012.jpg" alt="Default" style="width:960">
+
+<br>
 # Qapla!
-
-
+<br>
 
