@@ -15,6 +15,7 @@ Namaku {{ site.author }} dari {{ site.address }}
 ## URLs
 * [Backup dengan RSYNC dan GIT (<span style="color:red; font-weight:bold;">PDF</span>)](https://demosuremo.github.io/demo/LaTeX/generic.pdf)
 * [Google Account: Backup](001.md)
+* [RSYNC](002.md)
 * [LaTeX Presentasi](https://github.com/demosuremo/demo/tree/master/LaTeX/src/)
 * [GitHub Page](https://demosuremo.github.io/demo/)
 * [GitHub](https://github.com/demosuremo/demo/)
