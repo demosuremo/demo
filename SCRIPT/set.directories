@@ -1,0 +1,14 @@
+#!/bin/bash
+# START Tue 18 Jan 2022 23:08:21 WIB
+
+# Membuat directory "ZBACKUP/", "ZBACKUP/.ZBACKUP", "ZBACKUP/.ZBACKUP/ISO/"
+mkdir -pv $HOME/ZBACKUP/.ZBACKUP/ISO/
+
+# Membuat berkas "dummy.iso"
+touch $HOME/ZBACKUP/.ZBACKUP/ISO/dummy.iso
+
+# Link "ISO/" ke ".ZBACKUP/ISO/"
+cd $HOME/ZBACKUP/
+ln -s .ZBACKUP/ISO/
+
+
