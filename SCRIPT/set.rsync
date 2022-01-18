@@ -1,8 +1,13 @@
 #!/bin/bash
 # START Wed 19 Jan 2022 00:02:38 WIB
 
+BACKUP=".ZBACKUP/"
+SRC="$HOME/$BACKUP"
+USB="/mnt/usb/$BACKUP"
 
+[ -d $USB ] || { echo "ERROR: No $USB" ; exit 1; }
+[ -d $SRC ] || { echo "ERROR: No $SRC" ; exit 1; }
 
-
+rsync -auvc --progress $SRC $USB
 
 ################################################## EOF =====

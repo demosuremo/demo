@@ -24,4 +24,12 @@ title:  "Contoh BACKUP"
 ```
 
 <br>
+## RSYNC
+
+```
+(> SCRIPT/set.rsync <)
+
+```
+
+<br>
 

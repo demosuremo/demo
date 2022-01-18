@@ -14,7 +14,7 @@ ALL: 000.md 001.md 002.md
 001.md: 001.pmd
 	python assets/scripts/includeScript.py < 001.pmd > 001.md
 
-002.md: 002.pmd SCRIPT/set.gitconfig SCRIPT/set.backup
+002.md: 002.pmd SCRIPT/set.gitconfig SCRIPT/set.backup SCRIPT/set.rsync
 	python assets/scripts/includeScript.py < 002.pmd > 002.md
 
 .phony: ALL
