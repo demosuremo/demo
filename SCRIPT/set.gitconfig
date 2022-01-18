@@ -1,5 +1,4 @@
 #!/bin/bash
-
 [ -f $HOME/.gitconfig ] || {
 cat > $HOME/.gitconfig << NNNN
 # (c) 2016-2022 Demo Suremo
@@ -34,4 +33,3 @@ git config --global init.defaultBranch     'master'
 [ -f $HOME/.gitconfig ] && cat $HOME/.gitconfig
 
 exit
-
