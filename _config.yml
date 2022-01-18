@@ -37,8 +37,8 @@ plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
 google_analytics: "UA-89852122-16"
-
 urlweb:           "https://demosuremo.github.io/demo/"
 urlcontact:       "TBA"
 urlgithub:        "https://github.com/demosuremo/demo/"
 
+keep_files: [ISO]
