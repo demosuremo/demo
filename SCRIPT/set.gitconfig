@@ -1,3 +1,37 @@
 #!/bin/bash
-# START Tue 18 Jan 2022 22:34:26 WIB
+
+[ -f $HOME/.gitconfig ] || {
+cat > $HOME/.gitconfig << NNNN
+# (c) 2016-2022 Demo Suremo
+# This is a simple free git config file
+# REV01 Tue 18 Jan 2022 16:50:52 WIB
+# START Thu 22 Dec 2016 19:10:42 WIB
+NNNN
+}
+
+git config --global user.email             '97488221+demosuremo@users.noreply.github.com'
+git config --global user.name              'Demo Suremo'
+git config --global user.signingkey        '8F1421741FC7A9C95DFD3E41E2A5C7F127C418FF'
+
+git config --global core.editor            'vi'
+git config --global core.autocrlf          'false'
+git config --global core.safecrlf          'false'
+
+git config --global credential.helper      'cache --timeout=7200'
+
+git config --global pull.rebase            'true'
+
+git config --global merge.conflictstyle    'diff3'
+
+git config --global gitflow.prefix.hotfix  'hotfix/'
+git config --global gitflow.prefix.feature 'feature/'
+git config --global gitflow.prefix.bugfix  'bugfix/'
+git config --global gitflow.prefix.release 'release/'
+git config --global gitflow.prefix.support 'support/'
+
+git config --global init.defaultBranch     'master'
+
+[ -f $HOME/.gitconfig ] && cat $HOME/.gitconfig
+
+exit
 
