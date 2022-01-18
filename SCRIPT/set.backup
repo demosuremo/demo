@@ -36,6 +36,7 @@ git init pdf2022/
 git init --bare .ZBACKUP/pdf2022/
 cd  pdf2022/
 git commit -am "Initial Commit" --allow-empty
+touch dummy.pdf
 git add -A
 git commit -m "Init:pdf2022"
 git remote add origin ../.ZBACKUP/pdf2022/
