@@ -32,4 +32,4 @@ git config --global init.defaultBranch     'master'
 
 [ -f $HOME/.gitconfig ] && cat $HOME/.gitconfig
 
-exit
+#################################################################################### EOF ====

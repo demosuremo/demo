@@ -41,5 +41,4 @@ git commit -m "Init:pdf2022"
 git remote add origin ../.ZBACKUP/pdf2022/
 git push --set-upstream origin master;
 
-exit
-
+############################################################ EOF =====
