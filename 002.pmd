@@ -1,8 +1,16 @@
 ---
-title:  "The Backup Directory"
+title:  "Contoh BACKUP"
 ---
 
-## Contoh Backup
+## Setup Berkas ".gitconfig"
+
+```
+(> SCRIPT/set.gitconfig <)
+
+```
+
+<br>
+## Setup Directori Backup
 
 * Direktori Utama: "ZBACKUP/"
 * Direktori Siap RSYNC: "ZBACKUP/.ZBACKUP/"
@@ -10,18 +18,8 @@ title:  "The Backup Directory"
   * Repository GitHub: "ZBACKUP/demo/"    + bare "ZBACKUP/.ZBACKUP/demo/"
   * Repository Lokal:  "ZBACKUP/pdf2022/" + bare "ZBACKUP/.ZBACKUP/pdf2022/"
 
-## Berkas: "SCRIPT/set.gitconfig"
-
 ```
-(> SCRIPT/set.gitconfig <)
-
-```
-
-## Jalankan
-
-```
-wget -c https://demosuremo.github.io/demo/SCRIPT/set.gitconfig
-bash set.gitconfig
+(> SCRIPT/set.backup <)
 
 ```
 

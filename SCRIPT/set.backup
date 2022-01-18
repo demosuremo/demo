@@ -1,0 +1,45 @@
+#!/bin/bash
+# START Tue 18 Jan 2022 23:08:21 WIB
+
+# Membuat directory "ZBACKUP/", "ZBACKUP/.ZBACKUP", "ZBACKUP/.ZBACKUP/ISO/"
+mkdir -pv $HOME/ZBACKUP/.ZBACKUP/ISO/
+
+############################################ ISO =====
+# Membuat berkas "dummy.iso"
+touch $HOME/ZBACKUP/.ZBACKUP/ISO/dummy.iso
+
+# Link "ISO/" ke ".ZBACKUP/ISO/"
+cd $HOME/ZBACKUP/
+ln -s .ZBACKUP/ISO/
+
+############################################ GITHUB =====
+# Clone "demo" dari "GITHUB"
+cd $HOME/ZBACKUP/
+git clone git@github.com:demosuremo/demo.git
+
+# Membuat repo "bare" untuk BACKUP
+git init --bare .ZBACKUP/demo/
+cd demo/
+
+# Setup BACKUP
+git remote add BACKUP ../.ZBACKUP/demo/
+
+# Test PUSH/PULL
+git pull
+git push
+git push BACKUP
+git pull BACKUP master
+
+############################################ GIT LOCAL "pdf2022" =====
+cd $HOME/ZBACKUP/
+git init pdf2022/
+git init --bare .ZBACKUP/pdf2022/
+cd  pdf2022/
+git commit -am "Initial Commit" --allow-empty
+git add -A
+git commit -m "Init:pdf2022"
+git remote add origin ../.ZBACKUP/pdf2022/
+git push --set-upstream origin master;
+
+exit
+
