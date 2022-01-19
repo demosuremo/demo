@@ -4,7 +4,7 @@
 % License: % CC BY-NC-SA 3.0 (http://creativecommons.org/)
 % Modified by Rahmat M. Samik-Ibrahim
 
-% REV005 Wed 19 Jan 2022 08:44:07 WIB
+% REV005 Wed 19 Jan 2022 13:00:00 WIB
 % REV004 Tue 18 Jan 2022 02:56:05 WIB
 % REV003 Mon 17 Jan 2022 14:14:04 WIB
 % REV002 Sat 15 Jan 2022 17:51:47 WIB
@@ -80,8 +80,8 @@ extendedchars=true}
 \includegraphics[width=0.48\linewidth]{JPG-012}
 \end{figure}
 \begin{lstlisting}[basicstyle=\ttfamily\large]
-Nama Saya Rahmat...  Rahmat Nama Saya...
-Kalau Bukan Rahmat...  Bukan Nama Saya...
+Nama  Saya  Rahmat...  Rahmat Nama Saya...
+Kalau Bukan Rahmat...  Bukan  Nama Saya...
 \end{lstlisting}
 {\tiny
 \begin{itemize}
@@ -108,7 +108,8 @@ Kalau Bukan Rahmat...  Bukan Nama Saya...
 \begin{itemize}
 \item Cara \textbf{SAYA} mem-backup dari masa ke masa.
 \item (Pengguna) Ponsel Andriod (berbasis Google).
-\item Berbasis GNU/Linux menggunakan RSYNC dan GIT.
+\item VirtualBox menggunakan RSYNC dan GIT.
+\item Cloud Kilat menggunakan RSYNC dan GIT.
 \item URLs:
 \begin{itemize}
 \item Presentasi PDF - {\scriptsize \url{https://demosuremo.github.io/demo/LaTeX/generic.pdf}}
@@ -146,19 +147,17 @@ Kalau Bukan Rahmat...  Bukan Nama Saya...
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 \begin{frame}[fragile]
 \section{Zaman Google}
-\frametitle{Zaman Google}
+\frametitle{Zaman Google (Free: 15 GB)}
 \begin{itemize}
-\item 1998: Google Search
-\item 2004: Zaman GMAIL dimulai (2 GB)
-\item 2006: Membeli YouTube
-\item 2008: Android 1.0
+\item 1998: Google Search {\tiny (\url{https://google.com/})}
+\item 2004: Zaman GMAIL dimulai (2 GB) {\tiny (\url{https://mail.google.com/})}
+\item 2006: Membeli YouTube {\tiny (\url{https://youtube.com/})}
+\item 2008: Android 1.0 {\tiny (\url{https://android.com/})}
 \item 2011: Google Takeout - \url{https://takeout.google.com/}
-\begin{itemize}
-\item See also \url{https://demosuremo.github.io/demo/001.html}
-\end{itemize}
-\item 2012: Google Drive (15 GB)
-\item 2013: Membeli Waze
-\item 2018: Google One
+\item 2012: Google Drive (15 GB) {\tiny (\url{https://drive.google.com/})}
+\item 2013: Membeli Waze {\tiny (\url{https://waze.com/})}
+\item 2015: Google Photos {\tiny (\url{https://photos.google.com/})}
+\item 2018: Google One {\tiny (\url{https://one.google.com/})}
 \end{itemize}
 
 \noindent\rule{\textwidth}{1pt}
@@ -166,9 +165,66 @@ Kalau Bukan Rahmat...  Bukan Nama Saya...
 \begin{itemize}
 \item \href{https://support.google.com/android/answer/2819582}{Back up or restore data on your Android device}
 \item Backup Manual: Email (via Thunderbird)
-\item Backup Manual: Contact
 \item Backup Manual: Blogspot
+\item Backup Manual: Contact
+\item See also \url{https://demosuremo.github.io/demo/001.html}
 \end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\section{Backup ThunderBird}
+\frametitle{Backup ThunderBird}
+\begin{figure}
+\includegraphics[width=0.91\linewidth]{ThunderBird}
+\caption{Backup Manual: Email (via Thunderbird)}
+\end{figure}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\section{Backup BlogSpot}
+\frametitle{Backup BlogSpot}
+\begin{figure}
+\includegraphics[width=0.91\linewidth]{BlogSpot}
+\caption{Backup Manual: Blogspot}
+\end{figure}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\section{Backup Contacts}
+\frametitle{Backup Contacts}
+\begin{figure}
+\includegraphics[width=0.91\linewidth]{Contacts}
+\caption{Backup Manual: Contacts}
+\end{figure}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\section{Startegi Backup}
+\frametitle{Startegi Backup}
+\begin{itemize}
+\item Folder Utama - \texttt{"ZBACKUP/"}
+\begin{itemize}
+\item Folder GitHub.com - \texttt{"ZBACKUP/demo/"}
+\item Folder Git - \texttt{"ZBACKUP/pdf2022/"}
+\item Folder ISO (non git) - \texttt{"ZBACKUP/ISO/"}
+\end{itemize}
+\item Folder RSYNC \texttt{".ZBACKUP/"}
+\begin{itemize}
+\item Folder GitHub.com - \texttt{"ZBACKUP/.ZBACKUP/demo/"}
+\item Folder Git - \texttt{"ZBACKUP/.ZBACKUP/pdf2022/"}
+\item Folder ISO (non git) - \texttt{"ZBACKUP/.ZBACKUP/ISO/"}
+\end{itemize}
+\end{itemize}
+\begin{lstlisting}[basicstyle=\ttfamily\large]
+
+
+rsync -auvc $HOME/ZBACKUP/.ZBACKUP/ /mnt/usb/.ZBACKUP/
+
+\end{lstlisting}
 \end{frame}
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -183,21 +239,31 @@ Kalau Bukan Rahmat...  Bukan Nama Saya...
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 \begin{frame}[fragile]
-\section{FlashDisk}
-\frametitle{FlashDisk}
+\section{RSYNC FlashDisk}
+\frametitle{RSYNC FlashDisk}
 \begin{figure}
 \includegraphics[width=0.69\linewidth]{FLASHDISK}
 \caption{FLASHDISK}
 \end{figure}
+\begin{itemize}
+\item \texttt{RSYNC} dari \texttt{ZBACKUP/.ZBACKUP/} ke \texttt{/mnt/usb/.ZBACKUP/}.
+\end{itemize}
 \end{frame}
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 \begin{frame}[fragile]
-\section{Test Cloud Kilat}
-\frametitle{Test Cloud Kilat}
+\section{demokilat.vlsm.org/}
+\frametitle{demokilat.vlsm.org/}
 \begin{itemize}
 \item XX
 \end{itemize}
+
+\begin{lstlisting}[basicstyle=\ttfamily\large]
+
+rsync -auvc $HOME/ZBACKUP/.ZBACKUP/ demosuremo@demokilat.vlsm.org:/.ZBACKUP/
+
+\end{lstlisting}
+
 \end{frame}
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
