@@ -242,25 +242,28 @@ rsync -auvc $HOME/ZBACKUP/.ZBACKUP/ /mnt/usb/.ZBACKUP/
 \section{RSYNC FlashDisk}
 \frametitle{RSYNC FlashDisk}
 \begin{figure}
-\includegraphics[width=0.69\linewidth]{FLASHDISK}
+\includegraphics[width=0.61\linewidth]{FLASHDISK}
 \caption{FLASHDISK}
 \end{figure}
 \begin{itemize}
 \item \texttt{RSYNC} dari \texttt{ZBACKUP/.ZBACKUP/} ke \texttt{/mnt/usb/.ZBACKUP/}.
 \end{itemize}
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+    rsync -auvc  $HOME/ZBACKUP/.ZBACKUP/   /mnt/usb/.ZBACKUP/
+\end{lstlisting}
 \end{frame}
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 \begin{frame}[fragile]
-\section{demokilat.vlsm.org/}
-\frametitle{demokilat.vlsm.org/}
-
+\section{RSYNC Cloud Kilat}
+\frametitle{RSYNC Cloud Kilat}
+\begin{itemize}
+\item \texttt{RSYNC} dari \texttt{ZBACKUP/.ZBACKUP/} ke \texttt{CLOUD KILAT:/.ZBACKUP/}.
+\end{itemize}
 \begin{lstlisting}[basicstyle=\ttfamily\large]
-
-rsync -auvc $HOME/ZBACKUP/.ZBACKUP/ demosuremo@demokilat.vlsm.org:/.ZBACKUP/
-
+         rsync -auvc $HOME/ZBACKUP/.ZBACKUP/ \
+            demosuremo@demokilat.vlsm.org:/.ZBACKUP/
 \end{lstlisting}
-
 \end{frame}
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
